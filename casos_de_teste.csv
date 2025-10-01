@@ -1,9 +1,9 @@
 ID,Classe/Valor Limite,Entrada (Usuario/Senha),Resultado Esperado,Resultado Obtido
-TC001,Classe Válida,student/Password123,Login realizado com sucesso - Página de sucesso exibida,
-TC002,Classe Inválida,usuario_inexistente/Password123,Mensagem de erro: Your username is invalid!,
-TC003,Classe Inválida,student/senha_incorreta,Mensagem de erro: Your password is invalid!,
-TC004,Valor Limite,a/Password123,Mensagem de erro: Your username is invalid!,
-TC005,Valor Limite,(vazio)/Password123,Mensagem de erro: Your username is invalid!,
-TC006,Valor Limite,student/(vazio),Mensagem de erro: Your password is invalid!,
-TC007,Valor Limite,(vazio)/(vazio),Mensagem de erro: Your username is invalid!,
-TC008,Verificação,Elementos da página,Página contém campos username e password + botão submit,
+TC001,Classe Válida,student/Password123,Login realizado com sucesso - Página de sucesso exibida,PASSOU - Login realizado com sucesso
+TC002,Classe Inválida,usuario_inexistente/Password123,Mensagem de erro: Your username is invalid!,PASSOU - Mensagem de erro exibida corretamente
+TC003,Classe Inválida,student/senha_incorreta,Mensagem de erro: Your password is invalid!,PASSOU - Mensagem de erro exibida corretamente
+TC004,Valor Limite,a/Password123,Mensagem de erro: Your username is invalid!,PASSOU - Mensagem de erro exibida corretamente
+TC005,Valor Limite,(vazio)/Password123,Mensagem de erro: Your username is invalid!,PASSOU - Mensagem de erro exibida corretamente
+TC006,Valor Limite,student/(vazio),Mensagem de erro: Your password is invalid!,PASSOU - Mensagem de erro exibida corretamente
+TC007,Valor Limite,(vazio)/(vazio),Mensagem de erro: Your username is invalid!,PASSOU - Mensagem de erro exibida corretamente
+TC008,Verificação,Elementos da página,Página contém campos username e password + botão submit,FALHOU - Falha na verificação de elementos
