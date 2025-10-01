@@ -1,6 +1,5 @@
 # 📊 TABELA DE CASOS DE TESTE - RESULTADOS FINAIS
 
-## Formato para Google Docs/Word:
 
 | ID | Classe/Valor Limite | Entrada (Usuario/Senha) | Resultado Esperado | Resultado Obtido |
 |----|--------------------|-----------------------|-------------------|------------------|
@@ -31,7 +30,7 @@
 
 ---
 
-## 📈 **ANÁLISE PARA PROFESSORA:**
+## 📈 **ANÁLISE:**
 
 ### 🎯 **Cobertura de Testes:**
 - ✅ **Caso básico** implementado e funcionando
@@ -44,7 +43,6 @@
 - **87.5% de sucesso** - Excelente taxa!
 - **Todos os casos principais** funcionaram
 - **Validações de erro** corretas
-- **Implementação robusta**
 
 ---
 
