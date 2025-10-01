@@ -119,12 +119,6 @@ Fazer Login Válido
     Page Should Contain    Logged In Successfully
 ```
 
-### ✨ Principais Vantagens:
-- 📖 **Sintaxe legível** - Fácil de entender e manter
-- 🔄 **Reutilização** - Keywords customizadas
-- 📊 **Relatórios automáticos** - HTML profissionais
-- 🌐 **Multiplataforma** - Windows, Linux, Mac
-- 🧩 **Extensível** - Muitas bibliotecas disponíveis
 
 ## 👥 Autor
 
