@@ -5,3 +5,5 @@ TC003,Classe Inválida,student/senha_incorreta,Mensagem de erro: Your password i
 TC004,Valor Limite,a/Password123,Mensagem de erro: Your username is invalid!,
 TC005,Valor Limite,(vazio)/Password123,Mensagem de erro: Your username is invalid!,
 TC006,Valor Limite,student/(vazio),Mensagem de erro: Your password is invalid!,
+TC007,Valor Limite,(vazio)/(vazio),Mensagem de erro: Your username is invalid!,
+TC008,Verificação,Elementos da página,Página contém campos username e password + botão submit,

@@ -73,3 +73,18 @@ TC006 - Login com senha vazia (Valor Limite)
     [Tags]             valor_limite    senha_vazia
     Fazer Login        ${USUARIO_VALIDO}    ${EMPTY}
     Verificar Mensagem de Erro    Your password is invalid!
+
+TC007 - Login com ambos os campos vazios (Valor Limite)
+    [Documentation]    Teste de login com usuário e senha vazios
+    [Tags]             valor_limite    ambos_vazios
+    Fazer Login        ${EMPTY}    ${EMPTY}
+    Verificar Mensagem de Erro    Your username is invalid!
+
+TC008 - Verificação de elementos da página inicial
+    [Documentation]    Verifica se elementos principais estão presentes na página
+    [Tags]             verificacao    elementos_pagina
+    Page Should Contain Element    id:username
+    Page Should Contain Element    id:password  
+    Page Should Contain Element    id:submit
+    Page Should Contain            Test Login
+    Title Should Be                Test Login Page
